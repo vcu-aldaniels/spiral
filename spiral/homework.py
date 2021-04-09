@@ -1,13 +1,16 @@
-# declare function sum
- def sum(dim):
-  n = (dim - 1) /2;#find n 
-  use the formula defined above
-  x = (3 + 2 * n * ( 8 * n * n + 15 * n +13)) /3
-  return x
+def spiralize(number):
+      
+    n = (number - 1) / 2
+    
+    x = (3 + 2 * n * (8 * n * n + 15 * n +13)) / 3
+    
+    return_value = 1
 
- def main():
-  # call the function and print the value
-   diagonal = sum(5)
-   print (diagonal)
+    return return_value
 
- main()
+def sum():
+
+  diagonal = spiralize(5)
+  print (diagonal)
+
+sum()
